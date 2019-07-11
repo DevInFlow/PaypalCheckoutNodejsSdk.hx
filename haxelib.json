@@ -1,0 +1,20 @@
+{
+  "name": "PaypalCheckoutNodejsSdk.hx",
+  "url": "https://github.com/DevInFlow/PaypalCheckoutNodejsSdk.hx.git",
+  "license": "MIT",
+  "tags": [
+    "js",
+    "node",
+    "paypal"
+  ],
+  "description": "",
+  "version": "0.0.1",
+  "classPath": "src",
+  "releasenote": "",
+  "contributors": [
+    "varadig"
+  ],
+  "dependencies": {
+    "hxnodejs":""
+  }
+}
