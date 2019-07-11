@@ -1,6 +1,6 @@
 package paypal.orders;
 import paypal.base.IRequest;
-@:jsRequire("OrdersAuthorizeRequest")
+@:jsRequire("@paypal/checkout-server-sdk","orders.OrdersAuthorizeRequest")
 extern class OrdersAuthorizeRequest implements IRequest{
 	public function new(orderId:String):Void;
 	public function payPalClientMetadataId(payPalClientMetadataId:String):OrdersAuthorizeRequest;
